@@ -45,16 +45,13 @@ O Herói de nome Arthur está no nível de Prata.
 ## 🔧 Como executar o desafio
 
 1. Clone este repositório:
-
-```git clone https://github.com/GeCorreia4/desafio-classificadorNivelHeroi.git```
+`git clone https://github.com/GeCorreia4/desafio-classificadorNivelHeroi.git`
 
 2. Acesse o diretório do projeto:
-
-```cd desafio-classificadorNivelHeroi```
+`cd desafio-classificadorNivelHeroi`
 
 3. Execute o código em um ambiente Node.js:
-
-```node main.js```
+`node main.js`
 
 ## 📜 Licença
 
