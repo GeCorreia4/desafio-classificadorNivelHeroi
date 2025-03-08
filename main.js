@@ -1,7 +1,10 @@
 var nameHero = "Ricardo";
 var experienceHero = 0;
-var levelHero = 0;
 
+if (typeof(experienceHero) !== 'number') {
+    console.log("Experiencia de Herói diferente do tipo number")
+    return
+}
 
 if (experienceHero <= 1000) {
     levelHero = "Ferro";
@@ -19,11 +22,6 @@ if (experienceHero <= 1000) {
     levelHero = "Imortal";
 } else if (experienceHero > 10000) {
     levelHero = "Radiante";
-}
-
-if (!experienceHero || typeof(experienceHero) !== 'number') {
-    console.log("Experiencia de Herói não informada ou diferente do tipo number")
-    return
 }
 
 console.log(`O Herói de nome ${nameHero} está no nível de ${levelHero}`)
