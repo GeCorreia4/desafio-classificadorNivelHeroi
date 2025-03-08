@@ -1,5 +1,6 @@
 var nameHero = "Gabriel";
 var experienceHero = 10110;
+var levelHero;
 
 if (typeof(experienceHero) !== 'number') {
     console.log("Experiencia de Herói diferente do tipo number")
